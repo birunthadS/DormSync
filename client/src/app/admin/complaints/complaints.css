@@ -1,0 +1,48 @@
+.page-layout{
+  display:flex;
+  min-height:100vh;
+  background:#f5f7fb;
+}
+
+.page-main{
+  flex:1;
+  padding:30px;
+}
+
+.page-content{
+  margin-top:30px;
+}
+
+.complaints-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+  gap:25px;
+}
+
+.complaint-card{
+  background:white;
+  padding:25px;
+  border-radius:24px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.05);
+}
+
+.complaint-card h2{
+  margin-bottom:12px;
+  color:#111827;
+}
+
+.complaint-card p{
+  margin-bottom:10px;
+  color:#4b5563;
+  line-height:1.6;
+}
+
+.complaint-card select{
+  width:100%;
+  margin-top:20px;
+  padding:14px;
+  border:none;
+  border-radius:14px;
+  background:#f3f4f6;
+  font-size:15px;
+}

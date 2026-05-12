@@ -1,0 +1,54 @@
+.register-page {
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(
+    135deg,
+    #0b1120,
+    #111827
+  );
+}
+
+.register-box {
+  width: 450px;
+
+  background: #111827;
+
+  padding: 40px;
+
+  border-radius: 32px;
+}
+
+.register-box h1 {
+  font-size: 42px;
+  font-weight: 900;
+}
+
+.register-box p {
+  color: #94a3b8;
+
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.register-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.register-footer {
+  margin-top: 25px;
+
+  text-align: center;
+
+  color: #94a3b8;
+}
+
+.register-footer a {
+  color: white;
+  font-weight: bold;
+}
